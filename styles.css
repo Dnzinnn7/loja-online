@@ -121,3 +121,21 @@ footer {
     font-size: 16px;
     margin-bottom: 10px;
 }
+.tr {
+    color: white
+}
+
+ 
+
+.logo {
+    color: #221e52
+    posicion: 10px; /* Posicionamento absoluto para posicioná-la com base nas coordenadas */
+    top: 50px; /* Distância do topo em pixels */
+    left: 10px; /* Distância da esquerda em pixels */
+    width: 250px; /*Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+}
+.carrinho {
+    color: white
+}
+
