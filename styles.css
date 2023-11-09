@@ -122,20 +122,28 @@ footer {
     margin-bottom: 10px;
 }
 .tr {
-    color: white
+    color: white;
 }
 
  
 
 .logo {
-    color: #221e52
-    posicion: 10px; /* Posicionamento absoluto para posicioná-la com base nas coordenadas */
+    color: #221e52;
+    position: 10px; /* Posicionamento absoluto para posicioná-la com base nas coordenadas */
     top: 50px; /* Distância do topo em pixels */
     left: 10px; /* Distância da esquerda em pixels */
     width: 250px; /*Largura da imagem */
     height: auto; /* Altura automática para manter a proporção */
 }
 .carrinho {
-    color: white
+    color: white;
+}
+.prodduto-carrinho{
+    border: 1px solid #221e52;
+    margin: 100px;
+    padding: 10px;
+    width: 400px;
+    float: left;
+    background-color: #f9f9f9
 }
 
