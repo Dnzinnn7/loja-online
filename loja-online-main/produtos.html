@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Produtos - Minha Loja Online</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="logo.png">
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="minhaconta.html">Minha Conta</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="referências.html">Referências</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Produtos Disponíveis</h2>
+
+    <div class="produtos-container">
+        <!-- Produto 1 -->
+        <div class="produto">
+            <img src="chuteira nike.png" alt="Produto 1">
+            <h3>Produto 1</h3>
+            <p>Descrição do Produto 1.</p>
+            <p>Preço: R$ 19.99</p>
+            <button onclick="Adicione(1, 'Produto 1', 19.99)">Adicionar ao Carrinho</button>
+        </div>
+
+        <!-- Produto 2 -->
+        <div class="produto">
+            <img src="chuteira puma.png" alt="Produto 2">
+            <h3>Produto 2</h3>
+            <p>Descrição do Produto 2.</p>
+            <p>Preço: R$ 29.99</p>
+            <button onclick="Adicione(2, 'Produto 2', 29.99)">Adicionar ao Carrinho</button>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="produto">
+            <img src="chuteira addidas.png" alt="Produto 3">
+            <h3>Produto 3</h3>
+            <p>Descrição do Produto 3.</p>
+            <p>Preço: R$ 24.99</p>
+            <button onclick="Adicione(3, 'Produto 3', 24.99)">Adicionar ao Carrinho</button>
+        </div>
+        <!-- Adicione mais produtos disponíveis aqui -->
+    </div>
+    
+   <h2>Carrinho de Compras</h2>
+   <div class="produto-carrinho">
+    <img src="chuteira nike.png" alt="Produto Carrinho 1">
+    <h3>Produto 1</h3>
+    <p>Descrição do Produto 1.</p>
+    <p>Preço: R$ 19.99</p>
+    <button onclick="Remove()">Excluir</button>
+</div>
+<div class="novoItem">
+    <img src="chuteira nike.png" alt="Produto Carrinho 1">
+    <h3>Produto 1</h3>
+    <p>Descrição do Produto 1.</p>
+    <p>Preço: R$ 19.99</p>
+    <button onclick="Remove2()">Excluir</button>
+</div>
+    <footer>
+        &copy; 2023 Daniel Pacheco dos santos , Thiago Puka Pinheiro
+
+    </footer>
+    <script src="produtos.js"> </script>
+</body>
+</html>
