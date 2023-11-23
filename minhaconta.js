@@ -1,13 +1,16 @@
 var botao = document.querySelector(".subimit");
 
-function botaoHandler() {
-    event.preventDefault();
+function botaoHandler(){
+    let senha=document.getElementById("senha").value;
+    
+    if(senha == 1234) {
+        alert("Cadatrado Realizado");
+    }
+        else {
+            alert("Senha Incorreta");
+        }
+    
 
-    let email = document.getElementById("email").value;
-    console.log(email);
-    //if ()
-    alert("Cadatrado Realizdo");
-    console.log("teste2");
 }
 
 
